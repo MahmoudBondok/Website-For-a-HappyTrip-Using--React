@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: #FFF 1px solid !important;
+    border-radius: 30px !important;
+    font-size: 14px !important;
+}
+.dropdown-menu {
+    padding: 10px !important;
+    font-size: 14px !important;
+    position: absolute !important;
+    left: -45px !important;
+    top: 15px !important;
+    border: none !important;
+}
+.dropdown-menu::after {
+    content: '' !important;
+    position: absolute !important;
+    border-style: solid !important;
+    border-width: 10px !important;
+    border-color: transparent transparent #FFF transparent !important;
+    width: 10px !important;
+    height: 15px !important;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+}
+.dropdown-item {
+    font-weight: 500 !important;
+}
+.navbar .overlay {
+    width: 48.99rem;
+    height: 68rem;
+    background-color: #8612EA;
+    left: 405px;
+    top: -620px;
+    z-index: -1;
+    overflow: hidden !important;
+    border-bottom-left-radius: 55%;
+}
+.navbar .op-image {
+position: absolute;
+    top: 13rem;
+    left: 33rem;
+}
+.navbar .op {
+    position: absolute;
+    left: 1%;
+    top: 57%;
+    height: 470px;
+    opacity: 30%;
+}
+.foot {
+    border-top: 1px solid #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+}
+.footer p {
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
